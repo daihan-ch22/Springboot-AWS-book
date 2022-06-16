@@ -1,7 +1,7 @@
 Webservice with Springboot & AWS [BOOK]
 
 ```
-CURRENT PROGRESS
+CURRENT PROGRESS 16June
 
 CH1 (DONE)
-CH2 (~57p)
+CH2 (DONE)
