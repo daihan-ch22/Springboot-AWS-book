@@ -1,5 +1,5 @@
 plugins { // (1)
-    id 'org.springframework.boot' version '2.6.8' // RELEASE 삭제
+    id 'org.springframework.boot' version '2.4.1' // RELEASE 삭제
     id 'io.spring.dependency-management' version '1.0.11.RELEASE'
     id 'java'
 }
@@ -35,5 +35,6 @@ dependencies {
 
 
     testImplementation('org.springframework.boot:spring-boot-starter-test')
+
 
 }
