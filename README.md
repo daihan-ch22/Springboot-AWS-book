@@ -1,8 +1,8 @@
 Webservice with Springboot & AWS [BOOK]
 
 ```
-CURRENT PROGRESS 17June
+CURRENT PROGRESS 18June
 
 CH1 (DONE)
 CH2 (DONE)
-CH3 (~113p)
+CH3 (DONE) ~JPA Auditing

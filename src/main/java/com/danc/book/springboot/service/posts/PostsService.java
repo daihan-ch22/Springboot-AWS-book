@@ -8,7 +8,7 @@ import com.danc.book.springboot.web.dto.PostsUpdateRequestDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import lombok.Getter;
+
 
 
 @RequiredArgsConstructor
@@ -39,6 +39,5 @@ public class PostsService {
                 () -> new IllegalArgumentException("There is no such post. id=" + id));
 
         return new PostsResponseDto(entity);
-
     }
 }
