@@ -14,7 +14,8 @@ import javax.persistence.Id;
 @Getter
 @NoArgsConstructor
 @Entity
-public class Posts extends BaseTimeEntity { //DB의 실제 테이블과 매칭 될 클래스 (Entity 클래스 라고도 한다)
+public class Posts extends BaseTimeEntity {
+    //DB의 실제 테이블과 매칭 될 클래스 (Entity 클래스 라고도 한다)
     //Entity 클래스에서는 Setter를 절때 쓰지 않는다.
 
     @Id
