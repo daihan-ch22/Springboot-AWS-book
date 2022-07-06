@@ -11,4 +11,4 @@ CH5 (DONE)
 CH6 (DONE)
 CH7 (DONE) 
 CH8 (DONE)
-CH9 (~p352) test2
+CH9 (~p354) 358p deploy.sh 미리 작성 완료 
