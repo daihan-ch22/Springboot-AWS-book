@@ -11,4 +11,4 @@ CH5 (DONE)
 CH6 (DONE)
 CH7 (DONE) 
 CH8 (DONE)
-CH9 (~p354) 358p directory already exist error test 
+CH9 (~p354) 358p autoDeployFinalcheck 
