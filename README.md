@@ -1,7 +1,7 @@
 Webservice with Springboot & AWS [BOOK]
 
 ```
-CURRENT PROGRESS  7 JULY
+CURRENT PROGRESS  15 JULY
 
 CH1 (DONE)
 CH2 (DONE)
@@ -11,4 +11,5 @@ CH5 (DONE)
 CH6 (DONE)
 CH7 (DONE) 
 CH8 (DONE)
-CH9 (~p354) 358p autoDeployFinalcheck 
+CH9 (DONE)
+CH10 (~p382)
