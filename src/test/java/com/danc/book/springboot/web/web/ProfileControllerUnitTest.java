@@ -1,15 +1,15 @@
-package com.danc.book.springboot.web;
+package com.danc.book.springboot.web.web;
 
+import com.danc.book.springboot.web.ProfileController;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.mock.env.MockEnvironment;
-import com.danc.book.springboot.*;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 
 @SpringBootTest
-public class ProfileControllerTest {
+public class ProfileControllerUnitTest {
 
     @Test
     public void Check_real_Profile() {
@@ -31,7 +31,27 @@ public class ProfileControllerTest {
     }
 
     @Test
-    public void Chech_DefaultProfile_If_NO_activeProfile() {
+    public void real_profile이_없으면_첫번째가_조회된다() {
+        //given
+        String expectedProfile = "oauth";
+        MockEnvironment env = new MockEnvironment();
+
+        env.addActiveProfile(expectedProfile);
+        env.addActiveProfile("real-db");
+
+        ProfileController controller =
+                new ProfileController(env);
+
+        //when
+        String profile = controller.profile();
+
+        //then
+        assertThat(profile).isEqualTo(expectedProfile);
+    }
+
+
+    @Test
+    public void active_profile이_없으면_default가_조회된다() {
         //given
         String expectedProfile = "default";
 
