@@ -1,7 +1,7 @@
 Webservice with Springboot & AWS [BOOK]
 
 ```
-CURRENT PROGRESS  19 JULY
+DONE AT 19 JULY 2022 
 
 CH1 (DONE)
 CH2 (DONE)
@@ -12,4 +12,5 @@ CH6 (DONE)
 CH7 (DONE) 
 CH8 (DONE)
 CH9 (DONE)
-CH10 (~p385)
+CH10 (DONE)
+CH11 (DONE)
